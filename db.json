@@ -1,0 +1,10 @@
+{
+    "posts": [
+        {
+            "title": "post1",
+            "img": "",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quo, facilis, rerum voluptatibus atque corporis ullam accusamus consectetur quos optio dolores reiciendis, odit aspernatur. Quaerat adipisci mollitia nihil dignissimos eveniet. Inventore officia ipsa minus expedita sit exercitationem praesentium nisi esse, assumenda est? Tenetur veniam iure temporibus deserunt ullam. Porro nobis reiciendis quaerat. Perferendis tenetur saepe quas, illum reiciendis et consectetur. Sapiente esse commodi cumque quia quasi necessitatibus eius fugit nulla dicta amet blanditiis voluptates natus omnis beatae voluptate dolorem quidem aliquid, quam facilis, alias ratione magnam quae iste nihil. Ducimus. Enim corrupti rem, assumenda sit eius fugit quod ea consequuntur reiciendis, porro quam earum veritatis nemo ducimus dignissimos magnam. At temporibus quia et. Omnis, laboriosam tempora cum voluptatem possimus assumenda.",
+            "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quo, facilis, rerum voluptatibus atque corporis ullam accusamus consectetur quos optio dolores reiciendis, odit aspernatur."
+        }
+    ]
+}
