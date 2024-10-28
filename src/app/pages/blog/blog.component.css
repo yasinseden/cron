@@ -1,0 +1,12 @@
+.blog-title {
+    font-size: 34px;
+}
+
+.card {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px;
+}
+
+.date-label {
+    top: 56%;
+}

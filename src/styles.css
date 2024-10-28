@@ -126,6 +126,10 @@ a {
     color: #10B5FA;
 }
 
+.custom-text-gray {
+    color: #666666;
+}
+
 .custom-btn {
     border: none;
     background-color: var(--token-color);
