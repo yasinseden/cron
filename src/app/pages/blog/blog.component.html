@@ -1,19 +1,18 @@
 <div class="container">
     <div class="py-5">
+        <button class="custom-btn p-2 rounded" (click)="openDialog()">Add New Article</button>
         <h1 class="text-center fw-bolder blog-title">Our Blog</h1>
     </div>
     <div class="row">
-        @for (item of items; track $index) {
+        @for (article of articles; track $index) {
         <div class="col-md-4">
             <div class="card rounded m-3 position-relative">
-                <img src="images/code.jpg" alt="">
+                <img src="{{article.img}}" alt="">
                 <span class="position-absolute date-label custom-bg-primary py-2 px-3 text-light">
-                    16 JULY 2024
+                    {{article.date | date}}
                 </span>
                 <span class="p-4 custom-text-gray">
-                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                    alteration in some form, by injected humour, or randomised words which don't look even slightly
-                    believable.
+                    {{article.shortContent}}
                 </span>
             </div>
         </div>

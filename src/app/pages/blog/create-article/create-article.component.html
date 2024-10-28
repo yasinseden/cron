@@ -1,0 +1,21 @@
+<form [formGroup]="formGroup" (ngSubmit)="postArticle()" class="article-form p-5">
+    <mat-form-field class="w-100">
+        <mat-label>Title</mat-label>
+        <input matInput formControlName="title" class="w-100" placeholder="Title">
+    </mat-form-field>
+    <mat-form-field class="w-100">
+        <mat-label>Image</mat-label>
+        <input matInput formControlName="img" class="w-100" placeholder="Image URL">
+    </mat-form-field>
+    
+    <mat-form-field class="w-100">
+        <mat-label>Short Content</mat-label>
+        <textarea matInput formControlName="shortContent" class="w-100" placeholder="Ex. It makes me feel..."></textarea>
+    </mat-form-field>
+    <mat-form-field class="w-100">
+        <mat-label>Content</mat-label>
+        <textarea matInput formControlName="content" class="w-100" rows="15" placeholder="Ex. It makes me feel..."></textarea>
+    </mat-form-field>
+    <button mat-raised-button class="me-3" type="submit">Save</button>
+    <button mat-raised-button class="bg-danger text-light" type="button" (click)="cancel()">Cancel</button>
+</form>

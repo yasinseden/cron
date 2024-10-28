@@ -3,14 +3,14 @@ import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 import { AboutSharedComponent } from '../../components/about-shared/about-shared.component';
 import { ServicesSharedComponent } from '../../components/services-shared/services-shared.component';
 import { ContactSharedComponent } from '../../components/contact-shared/contact-shared.component';
-import { map, ReplaySubject, tap } from 'rxjs';
-import Slide from '../../models/slide-model';
-import { AsyncPipe, NgFor, NgIf } from '@angular/common';
+import { map, ReplaySubject } from 'rxjs';
+import Slide from '../../models/slide.model';
+import { AsyncPipe } from '@angular/common';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [NgbCarouselModule, AboutSharedComponent, ServicesSharedComponent, ContactSharedComponent, NgFor, NgIf, AsyncPipe],
+  imports: [NgbCarouselModule, AboutSharedComponent, ServicesSharedComponent, ContactSharedComponent, AsyncPipe],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

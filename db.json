@@ -1,10 +1,68 @@
 {
-    "posts": [
-        {
-            "title": "post1",
-            "img": "",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quo, facilis, rerum voluptatibus atque corporis ullam accusamus consectetur quos optio dolores reiciendis, odit aspernatur. Quaerat adipisci mollitia nihil dignissimos eveniet. Inventore officia ipsa minus expedita sit exercitationem praesentium nisi esse, assumenda est? Tenetur veniam iure temporibus deserunt ullam. Porro nobis reiciendis quaerat. Perferendis tenetur saepe quas, illum reiciendis et consectetur. Sapiente esse commodi cumque quia quasi necessitatibus eius fugit nulla dicta amet blanditiis voluptates natus omnis beatae voluptate dolorem quidem aliquid, quam facilis, alias ratione magnam quae iste nihil. Ducimus. Enim corrupti rem, assumenda sit eius fugit quod ea consequuntur reiciendis, porro quam earum veritatis nemo ducimus dignissimos magnam. At temporibus quia et. Omnis, laboriosam tempora cum voluptatem possimus assumenda.",
-            "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quo, facilis, rerum voluptatibus atque corporis ullam accusamus consectetur quos optio dolores reiciendis, odit aspernatur."
-        }
-    ]
+  "articles": [
+    {
+      "date": 1730116958966,
+      "title": "post1",
+      "img": "images/code.jpg",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quo, facilis, rerum voluptatibus atque corporis ullam accusamus consectetur quos optio dolores reiciendis, odit aspernatur. Quaerat adipisci mollitia nihil dignissimos eveniet. Inventore officia ipsa minus expedita sit exercitationem praesentium nisi esse, assumenda est? Tenetur veniam iure temporibus deserunt ullam. Porro nobis reiciendis quaerat. Perferendis tenetur saepe quas, illum reiciendis et consectetur. Sapiente esse commodi cumque quia quasi necessitatibus eius fugit nulla dicta amet blanditiis voluptates natus omnis beatae voluptate dolorem quidem aliquid, quam facilis, alias ratione magnam quae iste nihil. Ducimus. Enim corrupti rem, assumenda sit eius fugit quod ea consequuntur reiciendis, porro quam earum veritatis nemo ducimus dignissimos magnam. At temporibus quia et. Omnis, laboriosam tempora cum voluptatem possimus assumenda.",
+      "shortContent": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+      "id": "a71b"
+    },
+    {
+      "date": 1730116688966,
+      "title": "post1",
+      "img": "https://picsum.photos/id/27/600/400",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quo, facilis, rerum voluptatibus atque corporis ullam accusamus consectetur quos optio dolores reiciendis, odit aspernatur. Quaerat adipisci mollitia nihil dignissimos eveniet. Inventore officia ipsa minus expedita sit exercitationem praesentium nisi esse, assumenda est? Tenetur veniam iure temporibus deserunt ullam. Porro nobis reiciendis quaerat. Perferendis tenetur saepe quas, illum reiciendis et consectetur. Sapiente esse commodi cumque quia quasi necessitatibus eius fugit nulla dicta amet blanditiis voluptates natus omnis beatae voluptate dolorem quidem aliquid, quam facilis, alias ratione magnam quae iste nihil. Ducimus. Enim corrupti rem, assumenda sit eius fugit quod ea consequuntur reiciendis, porro quam earum veritatis nemo ducimus dignissimos magnam. At temporibus quia et. Omnis, laboriosam tempora cum voluptatem possimus assumenda.",
+      "shortContent": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+      "id": "2e3c"
+    },
+    {
+      "date": 1725116958966,
+      "title": "post1",
+      "img": "https://picsum.photos/id/217/600/400",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quo, facilis, rerum voluptatibus atque corporis ullam accusamus consectetur quos optio dolores reiciendis, odit aspernatur. Quaerat adipisci mollitia nihil dignissimos eveniet. Inventore officia ipsa minus expedita sit exercitationem praesentium nisi esse, assumenda est? Tenetur veniam iure temporibus deserunt ullam. Porro nobis reiciendis quaerat. Perferendis tenetur saepe quas, illum reiciendis et consectetur. Sapiente esse commodi cumque quia quasi necessitatibus eius fugit nulla dicta amet blanditiis voluptates natus omnis beatae voluptate dolorem quidem aliquid, quam facilis, alias ratione magnam quae iste nihil. Ducimus. Enim corrupti rem, assumenda sit eius fugit quod ea consequuntur reiciendis, porro quam earum veritatis nemo ducimus dignissimos magnam. At temporibus quia et. Omnis, laboriosam tempora cum voluptatem possimus assumenda.",
+      "shortContent": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+      "id": "dd0c"
+    },
+    {
+      "date": 1730116958982,
+      "title": "post1",
+      "img": "https://picsum.photos/id/127/600/400",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quo, facilis, rerum voluptatibus atque corporis ullam accusamus consectetur quos optio dolores reiciendis, odit aspernatur. Quaerat adipisci mollitia nihil dignissimos eveniet. Inventore officia ipsa minus expedita sit exercitationem praesentium nisi esse, assumenda est? Tenetur veniam iure temporibus deserunt ullam. Porro nobis reiciendis quaerat. Perferendis tenetur saepe quas, illum reiciendis et consectetur. Sapiente esse commodi cumque quia quasi necessitatibus eius fugit nulla dicta amet blanditiis voluptates natus omnis beatae voluptate dolorem quidem aliquid, quam facilis, alias ratione magnam quae iste nihil. Ducimus. Enim corrupti rem, assumenda sit eius fugit quod ea consequuntur reiciendis, porro quam earum veritatis nemo ducimus dignissimos magnam. At temporibus quia et. Omnis, laboriosam tempora cum voluptatem possimus assumenda.",
+      "shortContent": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+      "id": "cce2"
+    },
+    {
+      "date": 1730116957652,
+      "title": "post1",
+      "img": "https://picsum.photos/id/43/600/400",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quo, facilis, rerum voluptatibus atque corporis ullam accusamus consectetur quos optio dolores reiciendis, odit aspernatur. Quaerat adipisci mollitia nihil dignissimos eveniet. Inventore officia ipsa minus expedita sit exercitationem praesentium nisi esse, assumenda est? Tenetur veniam iure temporibus deserunt ullam. Porro nobis reiciendis quaerat. Perferendis tenetur saepe quas, illum reiciendis et consectetur. Sapiente esse commodi cumque quia quasi necessitatibus eius fugit nulla dicta amet blanditiis voluptates natus omnis beatae voluptate dolorem quidem aliquid, quam facilis, alias ratione magnam quae iste nihil. Ducimus. Enim corrupti rem, assumenda sit eius fugit quod ea consequuntur reiciendis, porro quam earum veritatis nemo ducimus dignissimos magnam. At temporibus quia et. Omnis, laboriosam tempora cum voluptatem possimus assumenda.",
+      "shortContent": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+      "id": "0d47"
+    },
+    {
+      "date": 1730116952966,
+      "title": "post1",
+      "img": "https://picsum.photos/id/45/600/400",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quo, facilis, rerum voluptatibus atque corporis ullam accusamus consectetur quos optio dolores reiciendis, odit aspernatur. Quaerat adipisci mollitia nihil dignissimos eveniet. Inventore officia ipsa minus expedita sit exercitationem praesentium nisi esse, assumenda est? Tenetur veniam iure temporibus deserunt ullam. Porro nobis reiciendis quaerat. Perferendis tenetur saepe quas, illum reiciendis et consectetur. Sapiente esse commodi cumque quia quasi necessitatibus eius fugit nulla dicta amet blanditiis voluptates natus omnis beatae voluptate dolorem quidem aliquid, quam facilis, alias ratione magnam quae iste nihil. Ducimus. Enim corrupti rem, assumenda sit eius fugit quod ea consequuntur reiciendis, porro quam earum veritatis nemo ducimus dignissimos magnam. At temporibus quia et. Omnis, laboriosam tempora cum voluptatem possimus assumenda.",
+      "shortContent": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+      "id": "b004"
+    },
+    {
+      "id": "ea95",
+      "title": "Deneme",
+      "img": "https://picsum.photos/id/237/600/400",
+      "content": "Some content it aspernatur. Quaerat adipisci mollitia nihil dignissimos eveniet. Inventore officia ipsa minus expedita sit exercitationem praesentium nisi esse, assumenda est? Tenetur veniam iure temporibus deserunt ullam. Porro nobis reiciendis quaerat. Perferendis tenetur saepe quas, illum reiciendis et consectetur. Sapiente esse commodi cumque quia quasi necessitatibus eius fugit nulla dicta amet blanditiis voluptates natus omnis beatae voluptate dolorem quidem aliquid, quam facilis, alias ratione magnam quae iste nihil. Ducimus. Enim corrupti rem, assumenda sit eius fugit quod ea consequuntur reiciendis, porro quam earum veritatis nemo ducimus dignissimos magnam. At temporibsdngflsd",
+      "shortContent": "Just controlling s, odit aspernatur. Quaerat adipisci mollitia nihil dignissimos eveniet. Inventore officia ipsa minus expedita sit exercitationem praesentium nisi esse, assumenda est? Tenetur veniam iure temporibus deserunt ullam. Porro nobis r",
+      "date": 1730119960226
+    },
+    {
+      "id": "daa5",
+      "title": "Something",
+      "img": "https://picsum.photos/id/7/600/400",
+      "content": "uaerat adipisci mollitia nihil dignissimos eveniet. Inventore officia ipsa minus expedita sit exercitationem praesentium nisi esse, assumenda est? Tenetur veniam iure temporibus deserunt ullam. Porro nobis reiciendis quaerat. Perferendis tenetur saepe quas, illum reiciendis et consectetur. Sapiente esse commodi cumque quia quasi necessitatibus eius fugit nulla dicta amet blanditiis voluptates natus omnis beatae voluptate dolorem quidem aliquid, quam facilis, alias ratione magnam quae iste nihil. Ducimus. Enim corrupti rem, assumenda sit eius fugit quod ea consequuntur reiciendis, porro quam earum veritatis nemo ducimus dignissimos magnam. At temporibus quia et. ",
+      "shortContent": "Deneme amaçlı lam. Porro nobis reiciendis quaerat. Perferendis tenetur saepe quas, illum reiciendis et consectetur. Sapiente esse commodi cumque quia quasi necessitatibus eius fugit nulla dic",
+      "date": 1730120621584
+    }
+  ]
 }
