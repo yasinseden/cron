@@ -32,3 +32,8 @@
 .quote-content {
     font-size: 18px;
 }
+
+.carousel-control-next {
+    background-color: #ffffff;
+    border-radius: 50%;
+}

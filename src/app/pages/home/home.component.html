@@ -1,14 +1,15 @@
 <div class="home-container">
     <div class="custom-carousel">
+        @let slides = slides$ | async;
+        @if (slides?.length) {
         <div class="container">
             <ngb-carousel>
+                @for (slide of slides; track $index) {
                 <ng-template ngbSlide>
                     <div class="text-center">
-                        <h1 class="text-light">Welcome To</h1>
-                        <h2 class="custom-text-secondary">Content Writing Service</h2>
-                        <span class="text-light carousel-description py-5">It is a long established fact that a reader
-                            will
-                            be distracted by the readable content of a page when looking</span>
+                        <h1 class="text-light">{{slide.title}}</h1>
+                        <h2 class="custom-text-secondary">{{slide.highlight}}</h2>
+                        <span class="text-light carousel-description py-5">{{slide.description}}</span>
                         <div class="my-5">
                             <button class="px-3 py-1 rounded custom-btn">
                                 Contact
@@ -16,36 +17,10 @@
                         </div>
                     </div>
                 </ng-template>
-                <ng-template ngbSlide>
-                    <div class="text-center">
-                        <h1 class="text-light">Welcome To</h1>
-                        <h2 class="custom-text-secondary">Content Writing Service</h2>
-                        <span class="text-light carousel-description py-5">It is a long established fact that a reader
-                            will
-                            be distracted by the readable content of a page when looking</span>
-                        <div class="my-5">
-                            <button class="px-3 py-1 rounded custom-btn">
-                                Contact
-                            </button>
-                        </div>
-                    </div>
-                </ng-template>
-                <ng-template ngbSlide>
-                    <div class="text-center">
-                        <h1 class="text-light">Welcome To</h1>
-                        <h2 class="custom-text-secondary">Content Writing Service</h2>
-                        <span class="text-light carousel-description py-5">It is a long established fact that a reader
-                            will
-                            be distracted by the readable content of a page when looking</span>
-                        <div class="my-5">
-                            <button class="px-3 py-1 rounded custom-btn">
-                                Contact
-                            </button>
-                        </div>
-                    </div>
-                </ng-template>
+                }
             </ngb-carousel>
         </div>
+        }
     </div>
     <div class="about-container container">
         <app-about-shared></app-about-shared>
