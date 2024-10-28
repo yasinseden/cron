@@ -127,6 +127,7 @@ a {
 }
 
 .custom-btn {
+    border: none;
     background-color: var(--token-color);
     color: #ffffff;
 }
