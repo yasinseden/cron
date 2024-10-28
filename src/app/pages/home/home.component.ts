@@ -3,11 +3,12 @@ import { Component } from '@angular/core';
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 import { AboutSharedComponent } from '../../components/about-shared/about-shared.component';
 import { ServicesSharedComponent } from '../../components/services-shared/services-shared.component';
+import { ContactSharedComponent } from '../../components/contact-shared/contact-shared.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [NgbCarouselModule, AboutSharedComponent, ServicesSharedComponent],
+  imports: [NgbCarouselModule, AboutSharedComponent, ServicesSharedComponent, ContactSharedComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
