@@ -1,0 +1,10 @@
+.content-title {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.custom-ms-20px {
+    margin-left: 20px;
+}

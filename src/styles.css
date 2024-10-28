@@ -118,6 +118,10 @@ a {
     outline: none !important;
 }
 
+.custom-bg-primary {
+    background-color: var(--primary-color);
+}
+
 .custom-text-secondary {
     color: #10B5FA;
 }
