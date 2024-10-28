@@ -1,6 +1,7 @@
 :root {
     --primary-color: #072833;
-    --secondary-color: #076787;;
+    --secondary-color: #076787;
+    --token-color: #343a40;
 }
 
 * {
@@ -119,4 +120,9 @@ a {
 
 .custom-text-secondary {
     color: #10B5FA;
+}
+
+.custom-btn {
+    background-color: var(--token-color);
+    color: #ffffff;
 }

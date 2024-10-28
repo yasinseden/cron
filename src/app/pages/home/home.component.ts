@@ -1,11 +1,12 @@
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
+import { AboutSharedComponent } from '../../components/about-shared/about-shared.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [NgbCarouselModule],
+  imports: [NgbCarouselModule, AboutSharedComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
